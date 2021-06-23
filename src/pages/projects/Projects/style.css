@@ -50,7 +50,7 @@ projects-button{
 }
 
 .projectCont{
-    margin: 100px;
+    margin: 20px;
 }
 
 .projectCont img{
@@ -75,9 +75,22 @@ projects-button{
     .projects{
         justify-content: space-between;
     }
-    .projects .projects-title{
+    .projects p{
+        width: 100%;
+    }
+
+    .projects .projects-title,
+    .projects .projectCont
+    {
+        width: 50%;
+        margin-top: 0;
+    }
+    .projectCont{
         width: 50%;
         margin-top: 0;
         font-size: 25px;
+    }
+    .projectCont img{
+        width: 100%
     }
 }

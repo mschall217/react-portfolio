@@ -5,10 +5,9 @@ import './style.css';
 const Projects = () => {
     return(
         <div className="projects">
- 
-           <div className="projects-button">
                 <h1>Check Out My Work!</h1>
-                <p>Click the screenshots to be taken to the deployed APPs! Click the names to be taken to my Repos! </p>
+                <p>Click the screenshots to be taken to the deployed APPs!</p> 
+                <p>Click the names to be taken to my Repos! </p>
                 <div className="projectCont">
                    <a href="https://mschall217.github.io/employee-directory/" target="_blank" rel="noreferrer"> 
                         <img src={`${process.env.PUBLIC_URL}/assets/imgs/empDirect.png`}
@@ -63,6 +62,7 @@ const Projects = () => {
                         <h1>My First Website</h1></a>
                     <p>It is always imporatnt to remember where you started. This was my first website I built and will always be near and dear to my heart. When I am frustrated it reminds me how far I have come and how much I have learned.</p>
                 </div>
+                <div className="projects-button">
                 <Link to="home">
                     <button>Home</button> 
                 </Link>
