@@ -10,7 +10,7 @@ const Home = () => {
                     <p>Full Stack Developer</p>
                 </h1>
                 <div className="profilePic">
-                    <img src={`${process.env.PUBLIC_URL}/me.jpg`}
+                    <img src={`${process.env.PUBLIC_URL}/assets/imgs/me.jpg`}
                     alt="Morgan Headshot"
                     />
                 

@@ -1,0 +1,83 @@
+.projects{
+    flex-grow: 1;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .projects-title{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .projects-title p {
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+projects-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.projects-button button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.projectCont{
+    margin: 100px;
+}
+
+.projectCont img{
+    max-height: 150px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+.projectCont a {
+    text-decoration: none;
+    color: black;
+}
+.projectCont a h1{
+    font-size: 18px;
+}
+
+.projectCont p{
+    font-size: 12px;
+    line-height: 10px;
+    color: darkgray;
+}
+@media(min-width: 800px){
+    .projects{
+        justify-content: space-between;
+    }
+    .projects .projects-title{
+        width: 50%;
+        margin-top: 0;
+        font-size: 25px;
+    }
+}
