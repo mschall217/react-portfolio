@@ -5,7 +5,7 @@ import './style.css';
 const Home = () => {
     return(
         <div className="home">
-            <div className="title">
+            <div className="home-title">
                 <h1>
                     <p>Full Stack Developer</p>
                 </h1>
@@ -13,14 +13,18 @@ const Home = () => {
                     <img src={`${process.env.PUBLIC_URL}/me.jpg`}
                     alt="Morgan Headshot"
                     />
+                
                 <div>
                 <Link to="about">
                    <button>About Me</button> 
                 </Link>
-                </div>
+                <Link to="projects">
+                   <button>See My Work!</button> 
+                </Link>
                 </div>
                 </div>
             </div>
+        </div>
     )
 }
 
