@@ -25,6 +25,11 @@ const Footer = () => {
                             alt="linkedIn icon"
                 />
            </a>
+           <a href={`${process.env.PUBLIC_URL}/assets/imgs/MSchall_Resume_2021.pdf`} target="_blank" rel="noreferrer" download>
+                <img src={`${process.env.PUBLIC_URL}/assets/icons/resume.png`}
+                            alt="linkedIn icon"
+                />
+           </a>
        </footer>
     )
 }
